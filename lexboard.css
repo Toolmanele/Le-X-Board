@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+svg {
+  user-select: none;
+}
+
+.axis line.dark {
+  stroke-opacity: 0.3;
+}
+.axis line {
+  stroke-opacity: 0.1;
+  /* shape-rendering: crispEdges; */
+}
+.axis text {
+  opacity: 0.5;
+  font-size: 14px;
+}
+.axis path {
+  display: none;
+}
